@@ -1,4 +1,4 @@
-README.md
+Valeria Rovik
 
 ASSIGNMENT:  
 Module assignment from my studies at Noroff School of Technology and Digital Media.
