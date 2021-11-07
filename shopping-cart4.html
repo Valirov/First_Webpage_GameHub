@@ -1,1 +1,211 @@
+<!doctype html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+    <title>GAME HUB | CART</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- HEADER START -->
+        <header>
+            <div class="container">
+                <nav class="navbar">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/gamehub_logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <div class="click-menu-btn">
+                                <span class="bar1"></span>
+                                <span class="bar2"></span>
+                                <span class="bar3"></span>
+                            </div>
+                        </span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">All Games</a>
+                            </li>
+                        </ul>
+                        <div class="search-wrap">
+                            <label for="">
+                                <img src="images/ic_search.svg" alt="">
+                                <input type="text" placeholder="Search">
+                            </label>
+                            <a href="#">Sign In</a>
+                        </div>
+                      <!-- <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form> -->
+                    </div>
+                    <ul class="cart-link">
+                        <li>
+                            <a href="#"><img src="images/ic_perm_identity.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/ic_local_grocery_store.svg" alt=""></a>
+                        </li>
+                    </ul>
+                  </nav>
+            </div>
+        </header>
+        <!-- HEADER END -->
+
+        <!-- CONTENT START -->
+
+        <div class="content">
+            <div class="game-wrap">
+                <div class="container">
+                    <div class="game-content-wrap">
+                        <div class="game-row">
+                            <div class="game-col game-single-img">
+                                <a href="#"><img src="images/image-1.png" alt=""></a>
+                            </div>
+                            <div class="game-col game-multi-img">
+                                <div class="game-row">
+                                    <div class="game-col">
+                                        <a href="#"><img src="images/image-3.png" alt=""></a>
+                                        <a href="#"><img src="images/image-2.png" alt=""></a>
+                                    </div>
+                                    <div class="game-col">
+                                        <a href="#"><img src="images/image-2.png" alt=""></a>
+                                        <a href="#"><img src="images/image-3.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CONTENT END -->
+
+        <div class="cart-modal shopping-cart-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <a href="index.html" class="go-to-main"><img src="images/ic_home_24px.svg" alt="Back to home icon"></a>
+                    <div class="modal-content-inner">
+                        <h3>COMPLETE YOUR ORDER</h3>
+                        <h4>Your shopping cart</h4>
+                        <div class="shopping-cart-content shopping-cart2-content">
+                            <div class="shopping-row">
+                                <div class="shopping-col col-54">
+                                    <div class="check-out-step2">
+                                        <ul class="add-to-card s-add-to-card">
+                                            <li>
+                                                <img src="images/image-1.png" class="product-img" />
+                                                <div class="product-desp">
+                                                    <h4>Skyrim</h4>
+                                                    <span>NEW</span>
+                                                    <h5>49.00 USD</h5>
+                                                    <div class="cart-quantity">
+                                                        <input type="button" value="-" class="button-minus" data-field="quantity">
+                                                        <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field" readonly="">
+                                                        <input type="button" value="+" class="button-plus" data-field="quantity">
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <img src="images/image-4.png" class="product-img" />
+                                                <div class="product-desp">
+                                                    <h4>Fortnite</h4>
+                                                    <span>PREOWNED</span>
+                                                    <h5>19.00 USD</h5>
+                                                    <div class="cart-quantity">
+                                                        <input type="button" value="-" class="button-minus" data-field="quantity">
+                                                        <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field" readonly="">
+                                                        <input type="button" value="+" class="button-plus" data-field="quantity">
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="payment-summary">
+                                            <h4>SUMMARY</h4>
+                                            <ul class="total-payment">
+                                                <li>
+                                                    <h5>Sub-total Delivery</h5>
+                                                </li>
+                                                <li>
+                                                    <h5>68.00 USD</h5>
+                                                </li>
+                                            </ul>
+                                            <span>Standard delivery (Free)</span>
+                                        </div>
+                                        <div class="we-accept">
+                                            <h5>We Accept:</h5>
+                                            <ul>
+                                                <li><a href="#"><img src="images/payment-method1.png" alt="Klarna payment method"></a></li>
+                                                <li><a href="#"><img src="images/payment-method2.png" alt="Paypal payment method"></a></li>
+                                                <li><a href="#"><img src="images/payment-method3.png" alt="Vipps payment method"></a></li>
+                                                <li><a href="#"><img src="images/payment-method4.png" alt="Visa payment method"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shopping-col col-46">
+                                    <form action="" class="payment-form">
+                                        <div class="form-group">
+                                            <label for="">VISA/Mastercard</label>
+                                            <input type="text" placeholder="Please fill in your card number" required>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="form-group mb-0 form-col-12">
+                                                <label for="">Expiration date (MM/YYYY)</label>
+                                            </div>
+                                            <div class="form-group t-center form-col-3">
+                                                <input type="text" placeholder="MM" required>
+                                            </div>
+                                            <div class="form-group t-center form-col-3">
+                                                <input type="text" placeholder="YYYY" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="form-group mb-0 form-col-12">
+                                                <label for="">CVV</label>
+                                            </div>
+                                            <div class="form-group t-center  form-col-3">
+                                                <input type="text" placeholder="CVV" required>
+                                            </div>
+                                            <div class="form-group form-col-3 ccv-card">
+                                                <img src="images/ic_credit_card_24px.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Name</label>
+                                            <input type="text" placeholder="Cardholder name" required>
+                                        </div>
+                                       <!-- <button type="submit">Confirm</button> -->
+                                       <a href="#">Confirm</a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
