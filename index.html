@@ -2,95 +2,110 @@
 <html lang="en">
 
 <head>
-
-    <title>GAME HUB | HOME</title>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Buy and sell all your favorite games at GameHub">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
-
+    <title>GAME HUB - HOME</title>
 </head>
-
 
 <body>
     <div class="wrapper">
-
-    <!-- HEADER START -->
-
-        <header>
-        <div class="container">
-        <nav class="navbar">
-        <a class="navbar-brand" href="#">
-        <img src="images/gamehub_logo.png" alt="">
-        </a>
-        
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">
-        <div class="click-menu-btn">
-          <span class="bar1"></span>
-          <span class="bar2"></span>
-          <span class="bar3"></span>
-        </div>
-        </span>
-        </button>
+        <!-- Header Start -->
+        <header class="main-header"> 
+            <div class="container">
+                <nav class="navbar">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/gamehub_logo.png" alt="Game hub brand logo">
+                    </a>
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <div class="click-menu-btn">
+                                <span class="bar1"></span>
+                                <span class="bar2"></span>
+                                <span class="bar3"></span>
+                            </div>
+                        </span>
+                    </button>
                   
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Home</a></li>
                             <li class="nav-item">
-                                <a class="nav-link" href="profile.html">Profile</a></li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="games.html">All Games</a></li>
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item menu-item-has-children active">
+                                <a class="nav-link" href="my-account.html">Profile</a>
+                                <ul class="sub-menu">
+                                    <li><a href="my-account.html">My account</a></li>
+                                    <li><a href="my-account.html">My games</a></li>
+                                    <li><a href="my-account.html">My Shop</a></li>
+                                    <li><a href="help.html">Settings</a></li>
+                                    <li class="active"><a href="help.html">Help</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item menu-item-has-children">
+                                <a class="nav-link" href="all-games.html">All Games</a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="all-games.html">All Games</a>
+                                        <!-- <ul class="sub-menu">
+                                            <li><a href="#">Trending</a></li>
+                                            <li><a href="#">Genre</a></li>
+                                            <li><a href="#">Sale</a></li>
+                                            <li><a href="#">GiftCard</a></li>
+                                        </ul> -->
+                                    </li>
+                                    <li><a href="all-games.html">PREORDERS</a></li>
+                                    <li><a href="all-games.html">PREOWNED</a></li>
+                                    <li><a href="my-account.html">MY SHOP</a></li>
+                                    <li><a href="help.html">HELP</a></li>
+                                </ul>
+                            </li>
                         </ul>
-
-    <!-- SEARCH -->
-
                         <div class="search-wrap">
                             <label for="">
                                 <img src="images/ic_search.svg" alt="">
                                 <input type="text" placeholder="Search">
                             </label>
-                            <a href="sing-in.html">Sign In</a>
+                            <a href="index.html">Sign In</a>
                         </div>
-                      
-    <!--ICON LINKS-->
+                      <!-- <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form> -->
                     </div>
                     <ul class="cart-link">
                         <li>
-                            <a href="profile.html"><img src="images/ic_perm_identity.svg" alt=""></a>
+                            <a href="my-account.html"><img src="images/ic_perm_identity.svg" alt=""></a>
                         </li>
                         <li>
-                            <a href="cart.html"><img src="images/ic_local_grocery_store.svg" alt=""></a>
+                            <a href="shopping-cart3.html"><img src="images/ic_local_grocery_store.svg" alt=""></a>
                         </li>
                     </ul>
                   </nav>
             </div>
         </header>
-    <!-- HEADER END -->
+        <!-- Header Start -->
 
-    <!-- MAIN CONTENT -->
-
+        <!-- Contant Start -->
         <div class="content">
             <div class="game-wrap">
                 <div class="container">
                     <div class="game-content-wrap">
                         <div class="game-row">
                             <div class="game-col game-single-img">
-                                <a href="games.html"><img src="images/image-1.png" alt="Skyrim Game"></a>
+                                <a href="shopping-cart1.html"><img src="images/image-1.png" alt="Skyrim game info"></a>
                             </div>
                             <div class="game-col game-multi-img">
                                 <div class="game-row">
                                     <div class="game-col">
-                                        <a href="games.html"><img src="images/image-3.png" alt="The last of us game"></a>
-                                        <a href="games.html"><img src="images/image-2.png" alt="Call of Duty game"></a>
+                                        <a href="#"><img src="images/image-3.png" alt="The last of us game info"></a>
+                                        <a href="#"><img src="images/image-2.png" alt="Call of duty game info"></a>
                                     </div>
                                     <div class="game-col">
-                                        <a href="games.html"><img src="images/image-2.png" alt="Call of Duty game"></a>
-                                        <a href="games.html"><img src="images/image-3.png" alt="The last of us game"></a>
+                                        <a href="#"><img src="images/image-2.png" alt="Call of duty game info"></a>
+                                        <a href="#"><img src="images/image-3.png" alt="The last of us game info"></a>
                                     </div>
                                 </div>
                             </div>
@@ -99,13 +114,11 @@
                 </div>
             </div>
         </div>
-    </div>   
-        <!-- MAIN CONTENT END -->
+        <!-- Contant End -->
+    </div>
 
-    <script src="js/drop.3.3.1.js"></script>
-    <script src="js/drop.js"></script>
-
-    <footer></footer>
-
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/custom.js"></script>
 </body>
+
 </html>
