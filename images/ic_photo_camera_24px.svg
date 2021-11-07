@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" viewBox="0 0 25 20">
+  <g id="ic_photo_camera_24px" transform="translate(-2 -2)">
+    <circle id="Ellipse_16" data-name="Ellipse 16" cx="3.2" cy="3.2" r="3.2" transform="translate(11.3 9.972)" fill="#f3eaea"/>
+    <path id="Path_92" data-name="Path 92" d="M10.75,2,8.462,4.222H4.5A2.38,2.38,0,0,0,2,6.444V19.778A2.38,2.38,0,0,0,4.5,22h20A2.38,2.38,0,0,0,27,19.778V6.444a2.38,2.38,0,0,0-2.5-2.222H20.538L18.25,2ZM14.5,18.667c-3.45,0-6.25-2.489-6.25-5.556s2.8-5.556,6.25-5.556,6.25,2.489,6.25,5.556S17.95,18.667,14.5,18.667Z" fill="#f3eaea"/>
+  </g>
+</svg>
